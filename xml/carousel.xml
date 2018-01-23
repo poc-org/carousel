@@ -5,10 +5,9 @@
    <Content type="html" view="home">
 	 
 <![CDATA[ 
- <link rel="stylesheet" href="../css/bootstrap.min.css">
-<script src="../js/jquery.min.js"></script>
-<script src="../js/bootstrap.min.js"></script>
-
+ <link rel="stylesheet" href="https://rawgit.com/cadriosula/poc/master/bootstrap/bootstrap.min.css">
+<script src="https://raw.githubusercontent.com/cadriosula/poc/master/bootstrap/jquery.min.js"></script>
+<script src="https://raw.githubusercontent.com/cadriosula/poc/master/bootstrap/bootstrap.min.js"></script>
 
   
 <style>
