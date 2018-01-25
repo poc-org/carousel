@@ -1,4 +1,4 @@
-var control = '<div style="position:absolute;bottom:80px;left:130px;padding-left:0;width:500px;"> '
+var controlText = '<div style="position:absolute;bottom:80px;left:130px;padding-left:0;width:500px;"> '
 controlText += '\n<a class="carousel-control" href="#myCarousel" data-slide="next">Next Feature</a> '
 controlText += '\n </div> '
 controlText += '\n<div style="position:absolute;bottom:16px;left:190px;padding-left:0;"> '
