@@ -9,4 +9,4 @@ controlText += '\n<polygon points="40,38 40,52 53,45" fill="#000"/>'
 controlText += '\n </a>'
 controlText += '\n</svg>'
 controlText += '\n</div> '
-document.write(controlText);
+
