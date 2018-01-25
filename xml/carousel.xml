@@ -90,21 +90,9 @@ a:active {
 		   <font size="2" style="color:white;"><a href="https://my.dxc.com/content/dam/private/employee_resources/dxc-workplace/DXC_Workplace_Employee_message.pdf" target="_blank">READ MORE</a></font><br/>		   
 		   </p>
 	      </div>
-		  	  
-		  <div style="position:absolute;bottom:80px;left:130px;padding-left:0;width:500px;">    			   
-			    <a class="carousel-control" href="#myCarousel" data-slide="next">Next Feature</a>	
-		  </div>
-		  
-		<div style="position:absolute;bottom:16px;left:190px;padding-left:0;">   
-		
-			<svg width="100" height="100">
-			 <a class="carousel-control" href="#myCarousel" data-slide="next">
-			<circle cx="45" cy="45" r="12" stroke="none" fill="yellow" />
-			<polygon points="40,38 40,52 53,45" fill="#000"/>			
-			  </a>
-			</svg>
-			
-		</div>   
+
+	    <!--Render carousel controls--> 	  	  
+	    <script type="text/javascript" src="../js/carousel_control.js"></script>
       </div>
 
 
@@ -120,20 +108,9 @@ a:active {
 	   
 			   </p>
 	      </div>
-		  <div style="position:absolute;bottom:80px;left:130px;padding-left:0;width:500px">    			   
-			    <a class="carousel-control" href="#myCarousel" data-slide="next">Next Feature</a>	
-		  </div>
-		  
-		<div style="position:absolute;bottom:16px;left:190px;padding-left:0;">   
-		
-			<svg width="100" height="100">
-			 <a class="carousel-control" href="#myCarousel" data-slide="next">
-			<circle cx="45" cy="45" r="12" stroke="none" fill="yellow" />
-			<polygon points="40,38 40,52 53,45" fill="#000"/>						
-			  </a>
-			</svg>
-			
-		</div>
+
+	    <!--Render carousel controls--> 	  	  
+	    <script type="text/javascript" src="../js/carousel_control.js"></script>
 		  
       </div>
     
