@@ -5,10 +5,13 @@
    <Content type="html" view="home">
 	 
 <![CDATA[ 
-<link rel="stylesheet" href="https://rawgit.com/poc-org/carousel/master/css/bootstrap.min.css">
-<script src="https://raw.githubusercontent.com/poc-org/carousel/master/js/jquery.min.js"></script>
-<script src="https://raw.githubusercontent.com/poc-org/carousel/master/js/bootstrap.min.js"></script>
 
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+    <div ng-app="myApp" ng-controller="myCtrl">
+<link rel="stylesheet" href="{{url_css_home}}/css/bootstrap.min.css">
+<script src="{{url_js_home}}/js/jquery.min.js"></script>
+<script src="{{url_js_home}}/js/bootstrap.min.js"></script>
+</div>
 <style>
 
   .title {
