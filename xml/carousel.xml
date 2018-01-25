@@ -7,8 +7,9 @@
 <![CDATA[ 
     <script src="../js/jquery.min.js"></script>
     <script src="../js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../js/carousel_control.js"></script>
     <link rel="stylesheet" href="https://rawgit.com/poc-org/carousel/master/css/bootstrap.min.css">
-
+    
 <style>
 
   .title {
@@ -92,7 +93,7 @@ a:active {
 	      </div>
 
 	    <!--Render carousel controls--> 	  	  
-	    <script type="text/javascript" src="../js/carousel_control.js"></script>
+	    <script type="text/javascript">document.write(controlText)</script>
       </div>
 
 
@@ -110,7 +111,7 @@ a:active {
 	      </div>
 
 	    <!--Render carousel controls--> 	  	  
-	    <script type="text/javascript" src="../js/carousel_control.js"></script>
+	    <script type="text/javascript">document.write(controlText)</script>
 		  
       </div>
     
