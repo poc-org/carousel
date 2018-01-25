@@ -5,9 +5,6 @@
    <Content type="html" view="home">
 	 
 <![CDATA[ 
-
-    <script src="../js/angular.min.1.6.4.js"></script>
-    <script src="../js/vars.js"></script>
     <script src="../js/jquery.min.js"></script>
     <script src="../js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="../css/bootstrap.min.css">
