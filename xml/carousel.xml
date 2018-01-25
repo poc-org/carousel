@@ -12,6 +12,7 @@
 <script src="{{url_js_home}}/js/jquery.min.js"></script>
 <script src="{{url_js_home}}/js/bootstrap.min.js"></script>
 </div>
+<script src="../js/vars.js"></script>
 <style>
 
   .title {
