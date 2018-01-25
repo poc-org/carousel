@@ -5,11 +5,10 @@
    <Content type="html" view="home">
 	 
 <![CDATA[ 
- <link rel="stylesheet" href="https://rawgit.com/cadriosula/poc/master/bootstrap/bootstrap.min.css">
-<script src="https://raw.githubusercontent.com/cadriosula/poc/master/bootstrap/jquery.min.js"></script>
-<script src="https://raw.githubusercontent.com/cadriosula/poc/master/bootstrap/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://rawgit.com/poc-org/carousel/master/css/bootstrap.min.css">
+<script src="https://raw.githubusercontent.com/poc-org/carousel/master/js/jquery.min.js"></script>
+<script src="https://raw.githubusercontent.com/poc-org/carousel/master/js/bootstrap.min.js"></script>
 
-  <!---->
 <style>
 
   .title {
