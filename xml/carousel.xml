@@ -93,7 +93,7 @@ a:active {
 	      </div>
 
 	    <!--Render carousel controls--> 	  	  
-	    <script>alert(controlText)</script>
+	     <script type="text/javascript">document.write(controlText)</script>
       </div>
 
 
