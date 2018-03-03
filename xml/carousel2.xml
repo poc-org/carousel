@@ -102,7 +102,7 @@ url('GT-Walsheim-Pro-Regular.svg#svgFontName') format('svg'); /* Legacy iOS */}
 	     <script type="text/javascript">document.write(controlText)</script>
         </div>
 	  
-      <div class="item">
+      <div class="item active">
 	  <img src="../images/02.jpg" style="width:100%;height:320px;" alt="HRConnect">
 	  <div style="position:absolute;bottom:30px;left:30px;padding-left:0;clear:both">
 	    <p id="message-box">
@@ -119,7 +119,7 @@ url('GT-Walsheim-Pro-Regular.svg#svgFontName') format('svg'); /* Legacy iOS */}
     
       <div class="item">
         <img src="../images/03.jpg" alt="image3" style="width:100%;height:320px;">
-	<div style="position:absolute;bottom:30px;left:30px;padding-left:0;">   
+	<div style="position:absolute;bottom:30px;left:30px;padding-left:0;clear:both">   
 	   <p id="message-box">
 	   <font size="4" style="color:white;">Global DXC Onboarding Process</font><br><br>
 	   <font size="2" style="color:white;">Onboarding employees across our global company and enhancing the new employee experience.</font><br><br>
@@ -133,7 +133,7 @@ url('GT-Walsheim-Pro-Regular.svg#svgFontName') format('svg'); /* Legacy iOS */}
 	        
      <div class="item">
         <img src="../images/04.jpg" alt="image4" style="width:100%;height:320px;">
-	<div style="position:absolute;bottom:30px;left:30px;padding-left:0;">   
+	<div style="position:absolute;bottom:30px;left:30px;padding-left:0;clear:both">   
 	   <p id="message-box">
 	   <font size="4" style="color:white;">DevOps Badges</font><br><br>
 	   <font size="2" style="color:white;">A fun way of learning using badges and gamification!</font><br><br>
