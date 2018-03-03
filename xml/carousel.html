@@ -1,0 +1,151 @@
+<html>
+<head>
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/carousel_control.js"></script>
+	<link rel="stylesheet" href="https://rawgit.com/poc-org/carousel/master/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    
+<style>
+
+  .title {
+  text-align: center;
+  margin-top: 20px;
+  padding: 10px;
+
+  color: #FF0000;
+  position: absolute;
+}
+
+
+.carousel-indicators{position:absolute;bottom:10px;left:50%;z-index:15;width:60%;padding-left:0;margin-left:-30%;text-align:center;list-style:none}.carousel-indicators li{display:inline-block;width:10px;height:10px;margin:1px;text-indent:-999px;cursor:pointer;background-color:#000\9;background-color:rgba(0,0,0,0);border:1px solid #fff;border-radius:10px}
+
+.carousel-indicators.active{width:12px;height:12px;margin:0;background-color:#fff}
+
+.container{width:682px; margin:0 auto; padding-right:0px;padding-left:0px;}
+
+#message-box {
+    border-radius: 0px 200px 200px 0px;
+    background: #000000;
+    padding: 20px; 
+    width: 300px;
+    height: 240px; 
+}
+
+.glyphicon{font-family:'Arial';font-style:normal;font-size:14px;color:white}
+.carousel-control{font-family:'Arial';font-style:normal;font-size:12px;color:white;opacity:1}
+
+ /* unvisited link */
+a:link {
+    color: white;
+}
+
+/* visited link */
+a:visited {
+    color: white;
+}
+
+/* mouse over link */
+a:hover {
+    color: white;
+}
+
+/* selected link */
+a:active {
+    color: white;
+} 
+
+@font-face {
+font-family: 'GT_Walsheim_Pro_Regular';
+src: url('GT-Walsheim-Pro-Regular.eot'); /* IE9 Compat Modes */
+src: url('GT-Walsheim-Pro-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+url('GT-Walsheim-Pro-Regular.woff') format('woff'), /* Modern Browsers */
+url('GT-Walsheim-Pro-Regular.ttf') format('truetype'), /* Safari, Android, iOS */
+url('GT-Walsheim-Pro-Regular.svg#svgFontName') format('svg'); /* Legacy iOS */}
+</style>
+</head>
+<body>
+<div class="container">
+
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+	
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">		  	
+	<div style="position:absolute;bottom:40px;left:10px;width:20%;">     
+	<!-- Indicators -->
+		<ol class="carousel-indicators">
+		  <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+		  <li data-target="#myCarousel" data-slide-to="1"></li>
+		  <li data-target="#myCarousel" data-slide-to="2"></li> 
+		  <li data-target="#myCarousel" data-slide-to="3"></li> 
+		</ol>
+	</div>
+	   
+        <div class="item active">
+	  <img src="../images/01.jpg" style="width:100%;height:350px;" alt="Skills Management" />
+		
+	    <div style="position:absolute;bottom:30px;left:30px;padding-left:0;clear:both">     
+	       <p id="message-box">
+		   <br>
+		   <font size="4" style="color:white;">Skills Management</font><br><br>
+		   <font size="1.5" style="color:white;">At DXC, your skills power our success!  Maintain your<br />skills to raise your visibility for new career opportunities and enable DXC to support clients with our best-available<br />skilled talent.</font><br><br>
+		   <span><font size="1.5" style="color:white;"><a href="https://dxc.sabacloud.com/Saba/Web_spf/NA2PRD0005/common/profile/plans/" target="_blank">MANAGE YOUR SKILLS</a> &#40;<a href="https://my.dxc.com/our-company/global-functions/integrated-workforce-management/analytics-and-intelligence/dxc-skills-management.html" target="_blank">LEARN MORE</a>&#41;</font></span><br>		   
+		   </p>  
+	    </div>
+
+	    <!--Render carousel controls--> 	  	  
+	     <script type="text/javascript">document.write(controlText)</script>
+        </div>
+	  
+      <div class="item">
+	  <img src="../images/02.jpg" alt="image2" style="width:100%;height:350px;">
+	  <div style="position:absolute;bottom:30px;left:30px;padding-left:0;">
+	    <p id="message-box">
+		<br>
+		<font size="4" style="color:white;">HRConnect is Here</font><br><br>
+		<font size="2" style="color:white;">HRConnect will replace AskHR as DXC's new global help portal.</font><br><br>
+		<font size="2" style="color:white;"><a href="https://my.dxc.com/content/dam/private/employee_resources/dxc-workplace/DXC_Workplace_Employee_message.pdf" target="_blank">LEARN MORE</a></font><br/>		   	   
+	    </p>
+	  </div>
+
+	    <!--Render carousel controls--> 	  	  
+	    <script type="text/javascript">document.write(controlText)</script>
+		  
+      </div>
+    
+      <div class="item">
+        <img src="../images/03.jpg" alt="image3" style="width:100%;height:320px;">
+	<div style="position:absolute;bottom:30px;left:30px;padding-left:0;">   
+	   <p id="message-box">
+	   <br>
+	   <font size="4" style="color:white;">Global DXC Onboarding Process</font><br><br>
+	   <font size="2" style="color:white;">Onboarding employees across our global company and enhancing the new employee experience.</font><br><br>
+	   <font size="2" style="color:white;"><a href="https://my.dxc.com/onboarding" target="_blank">ACCESS ONBOARDING</a></font><br/>		   
+	   </p>
+	</div>
+	
+          <!--Render carousel controls--> 	  	  
+	  <script type="text/javascript">document.write(controlText)</script>
+     </div>
+	        
+     <div class="item">
+        <img src="../images/04.jpg" alt="image4" style="width:100%;height:320px;">
+	<div style="position:absolute;bottom:30px;left:30px;padding-left:0;">   
+	   <p id="message-box">
+	   <br>
+	   <font size="4" style="color:white;">Title Goes Here</font><br><br>
+	   <font size="2" style="color:white;">Some more info goes here</font><br><br>
+	   <font size="2" style="color:white;"><a href="https://my.dxc.com/content/dam/private/employee_resources/dxc-workplace/DXC_Workplace_Employee_message.pdf" target="_blank">READ MORE</a></font><br/>		      
+	   </p>
+        </div>
+
+          <!--Render carousel controls--> 	  	  
+	  <script type="text/javascript">document.write(controlText)</script>
+     </div>
+
+    </div>
+  </div>
+</div>
+</body>
+</html>
